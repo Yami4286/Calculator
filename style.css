@@ -1,0 +1,29 @@
+.numPad{
+      user-select: none; /* Prevents text selection */
+    cursor: pointer; 
+    display:flex;
+    font-size:xx-large;
+}
+
+.num{
+    border: 2px solid black;
+    width: 40px;
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ border: 10px solid;
+ width: 170px;
+}
+
+.th, .operators{
+text-align: center;
+}
+
+.screen{
+    background-color: grey;
+    width: 170px;
+    height:50px;
+    border-bottom: 10px solid black;
+}
